@@ -2,8 +2,8 @@ package Testing;
 
 public class JunitTesting {
 
-	public double BMI(double height, double weight) {
-		return weight/(height * height);
+	public int cube(int x) {
+		return x * x * x;
 	}
 	
 	public int countS(String word) {

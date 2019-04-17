@@ -4,13 +4,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class IndexTesting {
+class CountTest {
 
 	@Test
 	void test() {
 		JunitTesting test = new JunitTesting();
-		int output = test.cube(5);
-		assertEquals(125, output);
+		int output = test.countS("Springbean");
+		assertEquals(1, output);
 	}
 
 }
